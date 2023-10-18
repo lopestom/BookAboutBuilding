@@ -1,8 +1,8 @@
 # Traduções do `Livro sobre a construção do Android`
 
 > **Importante:**
-> Este .md foi criado de [google/comprehensive-rust](https://github.com/google/comprehensive-rust/blob/main/TRANSLATIONS.md).
-> Agradeça a eles por isso
+> Este .md foi criado originalmente no idioma em inglês de [google/comprehensive-rust](https://github.com/google/comprehensive-rust/blob/main/TRANSLATIONS.md).
+> Agradeça a eles por isso.
 
 Gostaríamos muito de contar com sua ajuda para traduzir o livro para outros idiomas! 
 
@@ -124,11 +124,11 @@ configuração padrão:
 ![Poedit Screenshot](src/images/poedit-screenshot.png)
 
  * Linux OS
-
-   Você precisará alterar somente a opção
+1. Na Barra de menu, selecione a opção **Editar**
+2. Escolha **Preferências**
 5. _**Desmarque**_ a caixa **Preservar a formatação dos arquivos existentes**
 
-![Poedit SS Linux](src/images/poedit-screenshot1BR.png)
+![Poedit SS Linux](src/images/poedit-screenshotBR.png)
 
 ## Usando traduções
 
@@ -160,25 +160,21 @@ MDBOOK_BOOK__LANGUAGE=xx mdbook serve -d book/xx
 
 Quando você atualiza o arquivo `po/xx.po`, o livro traduzido será recarregado automaticamente.
 
-## Reviewing Translations
+## Revisando traduções
 
-When a new translation is started, we look for people who can help review it. These reviewers are often Googlers, but 
-they don't have to be.
+Quando uma nova tradução é iniciada, procuramos pessoas que possam ajudar a revisá-la. Esses revisores geralmente são Googlers, mas
+eles não precisam ser.
 
-When reviewing a translation, please keep in mind that translations are a labour of love. Someone spends their free time 
-translating the book because they want to bring Android to users who want to build this OS.
+Ao revisar uma tradução, lembre-se de que as traduções são um trabalho de amor. Alguém passa seu tempo livre traduzindo o livro 
+porque quer levar o Android aos usuários que desejam ter conhecimento e aplicar a construção desse sistema operacional.
 
-Nothing is published right away after a PR lands for a new in-progress language. It is therefore safe to merge the PR as 
-long as the translation is reasonable. This is often better than leaving 50+ comments since this can be overwhelming
-for the contributor. Instead, please work with the contributor to improve things in follow-up PRs.
+Nada é publicado imediatamente depois que um PR chega para um novo idioma traduzido ou em andamento. Portanto, é seguro fundir o 
+PR, desde que a tradução seja razoável. Muitas vezes, isso é melhor do que deixar mais de 50 comentários, pois pode ser cansativo 
+para o colaborador. Em vez disso, trabalhe com o colaborador para melhorar as traduções nos PRs de acompanhamento ou subsequentes.
 
-### GitHub Suggestions
+### Sugestões do GitHub
 
-When reviewing a translation PR, please use the
-[GitHub suggestion feature](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request).
-This feature allows you to directly write how you think a line or paragraph should be phrased. Use the left-most button 
-in the toolbar to create a suggestion.
+Ao revisar um PR de tradução, use o [recurso de sugestão do GitHub/GitHub suggestion feature](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request).
+Este recurso permite que você escreva diretamente como você acha que uma linha ou parágrafo deve ser redigido. Use o botão mais à esquerda na barra de ferramentas para criar uma sugestão.
 
-The PR author can
-[apply the changes with a single click](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)
-afterwards, drastically reducing the number of round-trips needed in a review.
+O autor do PR pode posteriormente [aplicar as alterações com um único clique](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request) e reduzir drasticamente o número de idas e voltas necessárias em uma revisão.
