@@ -21,7 +21,7 @@ Este livro é um guia "completo" para construir o sistema operacional Android a 
 * Se você não é contribuidor, o procedimento é o mesmo para você, apenas você faz uma solicitação de mesclagem a partir do seu fork ou de outra forma.
 
 # 🌎 Quero contribuir na tradução, como posso fazer isso?
-Leia [`TRANSLATIONS.md`](TRANSLATIONS.md) e faça uma tradução de acordo com essas instruções e envie-nos um Pull Request. Verificaremos sua tradução e se estiver correta, a aceitaremos.
+Leia [`Translations_pt.md`](Translations_pt.md) e faça uma tradução de acordo com essas instruções e envie-nos um Pull Request. Verificaremos sua tradução e se estiver correta, a aceitaremos.
 
 # 🔨 Preparação
 Para gerar um livro, usamos o utilitário [`mdbook`](https://github.com/rust-lang/mdBook).
