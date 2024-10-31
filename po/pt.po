@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: About Android Building\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-10-22 19:45-0300\n"
+"PO-Revision-Date: 2024-10-31 01:33-0300\n"
 "Last-Translator: lopestorm <guillopes2002@gmail.com>\n"
 "Language-Team: Portuguese <https://github.com/lopestom/BookAboutBuilding/"
 "blob/master_pt-BR/po/pt-BR.po>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.5\n"
 
 #: src/SUMMARY.md:3
 msgid "Глава 1 Начало начал"
@@ -118,7 +118,7 @@ msgstr ""
 #: src/Глава 1 Начало начал/Параграф выбор
 #: подходящей системы.md:1
 msgid "# Параграф 1: выбор подходящей системы  "
-msgstr "# Parágrafo 1: Escolha de um sistema operacional adequado"
+msgstr "# Parágrafo 1: Escolha de um sistema operacional adequado "
 
 #: src/Глава 1 Начало начал/Параграф выбор
 #: подходящей системы.md:3
@@ -132,7 +132,7 @@ msgstr ""
 #: src/Глава 1 Начало начал/Параграф выбор
 #: подходящей системы.md:7
 msgid "### Что такое Linux, и с чем его едят"
-msgstr "### O que é Linux e o que ele vem com ele?"
+msgstr "### O que é Linux e o que ele vem com ele."
 
 #: src/Глава 1 Начало начал/Параграф выбор
 #: подходящей системы.md:9
@@ -221,7 +221,7 @@ msgid ""
 msgstr ""
 "Como o nome sugere, a base para todas as distribuições semelhantes ao Debian-"
 "like é a distribuição Debian, e a base para a distribuição semelhante ao "
-"Arch-like é o Arch Linux."
+"Arch-like é o Arch Linux"
 
 #: src/Глава 1 Начало начал/Параграф выбор
 #: подходящей системы.md:31
@@ -230,7 +230,7 @@ msgid ""
 "С этим всем мы познакомимся в следующем параграфе. "
 msgstr ""
 "A principal diferença é o sistema de gerenciamento de pacotes, ou "
-"**gerenciador de pacotes**. Conheceremos tudo isso no próximo parágrafo."
+"**gerenciador de pacotes**. Conheceremos tudo isso no próximo parágrafo. "
 
 #: src/Глава 1 Начало начал/Параграф выбор
 #: подходящей системы.md:33
@@ -411,12 +411,15 @@ msgid ""
 "- USB флэшка\n"
 "- Интернет соединение  "
 msgstr ""
+"- Computador de trabalho\n"
+"- Unidade USB/Pendrive de instalação\n"
+"- Conexão com a Internet  "
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:14
 msgid "### Скачиваем дистрибутив"
-msgstr ""
+msgstr "### Baixe a distribuição"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -427,6 +430,10 @@ msgid ""
 "иногда можно скачать через торрент, от себя советую этот способ, т. к. таким "
 "способом скачается быстрее. "
 msgstr ""
+"Tudo é simples aqui, não acho que valha a pena explicar. Basta acessar o "
+"site da distribuição selecionada e baixar a versão mais recente. Normalmente "
+"o download é direto, mas às vezes você pode baixar via torrent. Eu "
+"pessoalmente recomendo esse método, pois assim o download é mais rápido. "
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -434,18 +441,20 @@ msgstr ""
 msgid ""
 "> Ссылки на сайты основных дистрибутивов находятся в предыдущем параграфе"
 msgstr ""
+"> Links para os sites das principais distribuições estão no parágrafo "
+"anterior"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:20
 msgid "Скачали? Тогда переходим к следующему шагу!"
-msgstr ""
+msgstr "Você baixou? Então vamos para o próximo passo!"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:23
 msgid "### Записываем установщик на флэшку"
-msgstr ""
+msgstr "### Grave o instalador em uma unidade USB/Pendrive de instalação"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -454,6 +463,7 @@ msgid ""
 "Рассматривать метод с CD/DVD-ROM не буду, так как кто этой древностью сейчас "
 "пользуется?"
 msgstr ""
+"Não vou considerar o método CD/DVD-ROM, pois quem usa essa antiguidade agora?"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -463,6 +473,9 @@ msgid ""
 "предполагается, что вы собираетесь поставить Linux второй системой/перейти "
 "на него для сборки прошивок и других полезных дел."
 msgstr ""
+"Deixe-me esclarecer que consideraremos métodos de gravação no Windows, pois "
+"presume-se que você instalará o Linux como um segundo sistema/mudará para "
+"ele para construir firmware e outras coisas úteis."
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -471,12 +484,14 @@ msgid ""
 "Так, нам нужна утилита для записи. Подойдет Etcher или тот же Rufus, без "
 "разницы. Рассмотрим подробнее..."
 msgstr ""
+"Então, precisamos de um utilitário de gravação. Etcher ou o mesmo Rufus "
+"servirão, não faz diferença. Vamos dar uma olhada mais de perto..."
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:32
 msgid "### Вариант с Etcher"
-msgstr ""
+msgstr "### Opção com Etcher"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -486,12 +501,16 @@ msgid ""
 "флэшку в компьютер. Ну или нужную, просто предварительно скопируйте все "
 "нужные вам данные с нее. Запускаем Etcher"
 msgstr ""
+"Baixe o utilitário do site https://www.balena.io/etcher/. Inserimos a "
+"unidade USB/Pendrive de instalação necessária no computador. Bem, ou o "
+"necessário, aquele que você precisa, primeiro copie todos os dados que você "
+"precisa dele. Inicie o Etcher"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:36 среды.md:58
 msgid "Открывшееся окно"
-msgstr ""
+msgstr "Janela aberta"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -504,6 +523,8 @@ msgstr ""
 #: среды.md:38
 msgid "Откроется данное окно. Как видно, тут все предельно просто:"
 msgstr ""
+"Esta janela será aberta. Como você pode ver, tudo é extremamente simples "
+"aqui:"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -513,36 +534,41 @@ msgid ""
 "    2. Выбираем USB устройство\n"
 "    3. Нажимаем Flash"
 msgstr ""
+"1. Selecione o arquivo/ imagem de distribuição\n"
+"    2. Selecione uma unidade USB/Pendrive de instalação\n"
+"    3. Clique em Instalar/Gravar"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:50
 msgid "Все, загрузочная флэшка записана"
-msgstr ""
+msgstr "É isso, a unidade USB/Pendrive inicializável está gravada"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:52
 msgid "### Вариант с Rufus"
-msgstr ""
+msgstr "### Opção com Rufus"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:54
 msgid "Тут все немного по-сложнее чем с Etcher, но тоже просто."
 msgstr ""
+"Tudo aqui é um pouco mais complicado do que no Etcher, mas ainda assim "
+"simples."
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:56
 msgid "Скачиваем утилиту с сайта https://rufus.ie/. Запускаем..."
-msgstr ""
+msgstr "Baixe o utilitário do site https://rufus.ie/. Vamos iniciar..."
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:60
 msgid "Откроется данное окно."
-msgstr ""
+msgstr "Esta janela será aberta."
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -576,18 +602,48 @@ msgid ""
 "   ![](images/9.PNG)\n"
 "   "
 msgstr ""
+"1. Selecione um dispositivo\n"
+"\n"
+"2. Selecione o arquivo/imagem de distribuição\n"
+"\n"
+"3. No caso de arquivos/imagens Linux, não importa o tipo de partição do "
+"pendrive que você escolher, isso deve ter o tamanho para arquivos do "
+"Windows. Também não deve ser maior, já que não tem as configurações do "
+"sistema de arquivos.\n"
+" Esta é a aparência da janela após a configuração\n"
+"    ![](images/6.PNG)  \n"
+"    Existe um recurso interessante. Você pode criar uma seção chamada "
+"\"persist\" diretamente no utilitário sem problemas. Esta seção é necessária "
+"para salvar dados/configurações no LiveUSB\n"
+"\n"
+"4. Clique em Iniciar\n"
+"\n"
+"   **Importante!** Você será questionado sobre como gravar o arquivo/imagem, "
+"já que quase todos os arquivos do Linux são imagens ISO-Híbridas. Não vou "
+"entrar em detalhes, apenas direi que você precisa **certificar-se de "
+"selecionar “Gravar no modo de imagem DD”**\n"
+"   ![](imagens/7.PNG)\n"
+"   \n"
+"5. Concordamos com isso\n"
+"\n"
+"   ![](imagens/8.PNG)\n"
+"\n"
+"6. Basta esperar...\n"
+"\n"
+"   ![](imagens/9.PNG)\n"
+"   "
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:85
 msgid "После того, как мы записали флэшку, самое время установить систему!"
-msgstr ""
+msgstr "Depois de gravarmos o pendrive, é hora de instalar o sistema!"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:87
 msgid "## Установка системы"
-msgstr ""
+msgstr "## Instalação do sistema"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -599,6 +655,12 @@ msgid ""
 "Installation_guide) ([GUI](https://archlinuxgui.in/tutorials.html))| [Ubuntu]"
 "(https://help.ubuntu.ru/wiki/ubuntu_install)"
 msgstr ""
+"Infelizmente, não posso revelar esta etapa em detalhes devido às capacidades "
+"técnicas. Mas existem muitos guias na Internet e instalar o Ubuntu não é "
+"mais difícil do que o Windows. Instalação [Arch](https://wiki.archlinux.org/"
+"title/Installation_guide) ([GUI](https://github.com/arch-linux-gui/alg-"
+"releases))| [Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-"
+"overview)"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -607,18 +669,20 @@ msgid ""
 "> Я буду очень надеяться, что мои \"коллеги\" дополнят этот раздел подробной "
 "инструкцией  "
 msgstr ""
+"> Eu realmente espero que meus “colegas” complementem esta seção com "
+"instruções detalhadas  "
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:93
 msgid "### Настройка среды"
-msgstr ""
+msgstr "### Configurando o ambiente"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:95
 msgid "### Установка необходимых пакетов"
-msgstr ""
+msgstr "### Instalando pacotes necessários"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -639,18 +703,32 @@ msgid ""
 "   yay -S lineageos-devel python\n"
 "   ```"
 msgstr ""
+"- **Debian-like:**\n"
+"\t```bash\n"
+"\tsudo apt-get install git-core gnupg flex bison build-essential zip curl "
+"zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 libncurses5 "
+"lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev "
+"libxml2-utils xsltproc unzip fontconfig repo python\n"
+"\t```\n"
+"\t\n"
+"- **Arch-like:**\n"
+" *Através de [AUR](https://github.com/Jguer/yay#installation)*\n"
+"\n"
+"   ```bash\n"
+"   yay -S lineageos-devel python\n"
+"   ```"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:109
 msgid "### Настройка git"
-msgstr ""
+msgstr "### Configuração do Git"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
 #: среды.md:110
 msgid "Вписываем свой никнейм и почту на GitHub:"
-msgstr ""
+msgstr "Digite seu nome de usuário e e-mail do GitHub:"
 
 #: src/Глава 1 Начало начал/Параграф 2
 #: установка системы и настройка её
@@ -661,11 +739,15 @@ msgid ""
 "git config --global user.email \"you@example.com\"\n"
 "```"
 msgstr ""
+"```bash\n"
+"git config --global user.name \"Your Name\"\n"
+"git config --global user.email \"you@example.com\"\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:1
 msgid "# Параграф 3: качаем исходники прошивки"
-msgstr ""
+msgstr "# Parágrafo 3: baixe as fontes de firmware"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:3
@@ -673,6 +755,8 @@ msgid ""
 "Работать будем целиком в терминале, чтобы не бегать из терминала в UI и "
 "обратно."
 msgstr ""
+"Trabalharemos inteiramente no terminal, para não correr do terminal para a "
+"UI e vice-versa."
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:5
@@ -681,6 +765,9 @@ msgid ""
 "условно будет называться LOS (сокращенное название Lineage OS), но можно "
 "назвать как угодно и еще даже циферки написать :)"
 msgstr ""
+"Criamos uma pasta onde nosso firmware será armazenado e entramos nela. "
+"Escreva como LOS (abreviação de Lineage OS), mas você pode escrever como "
+"quiser e até escrever alguns números :)"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:7
@@ -690,6 +777,10 @@ msgid ""
 "cd LOS\n"
 "```"
 msgstr ""
+"```bash\n"
+"mkdir LOS\n"
+"cd LOS\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:12
@@ -699,17 +790,24 @@ msgid ""
 "Да, но не вручную, а с помощью утилиты repo. Открываем репозиторий android "
 "либо manifest (зависит от прошивки), обычно он закреплен."
 msgstr ""
+"Ótimo, agora você precisa baixar as fontes do firmware. Abrimos github.com/"
+"LineageOS e ficamos surpresos com a quantidade de tudo que existe. E baixar "
+"tudo isso? Sim, mas não manualmente, mas usando o utilitário repo. Abra o "
+"repositório android ou de manifesto (dependendo do firmware), geralmente ele "
+"está fixado."
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:14 5 инициализация и
 #: сборка.md:25
 msgid "Пример"
-msgstr ""
+msgstr "Exemplo"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:16
 msgid "Ага! Первым делом в Readme видим как скачать. Замечательно :) Вводим"
 msgstr ""
+"Sim! Em primeiro lugar, no Leia-me (Readme) vemos como fazer o download. "
+"Maravilhoso :) Entre"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:18
@@ -719,16 +817,20 @@ msgid ""
 "repo sync\n"
 "```"
 msgstr ""
+"```bash\n"
+"repo init -u git://github.com/LineageOS/android.git -b lineage-17.1\n"
+"repo sync\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:23
 msgid "Скачивание началось и ждем."
-msgstr ""
+msgstr "O download começou e estamos aguardando."
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:25
 msgid "Чтобы обновить исходники, введите просто в папке с исходниками"
-msgstr ""
+msgstr "Para atualizar as fontes, basta entrar na pasta de fontes"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:27
@@ -737,6 +839,9 @@ msgid ""
 "repo sync\n"
 "```"
 msgstr ""
+"```bash\n"
+"repo sync\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:31
@@ -744,6 +849,8 @@ msgid ""
 "Если Вы хотите ограничить скорость закачивания, требуется ввести количество "
 "потоков."
 msgstr ""
+"Se quiser limitar a velocidade de download, você deve inserir o número (#) "
+"de núcleos físicos ou virtuais que ele possui."
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:33
@@ -752,6 +859,9 @@ msgid ""
 "repo sync -j#\n"
 "```"
 msgstr ""
+"```bash\n"
+"repo sync -j#\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:37
@@ -762,6 +872,11 @@ msgid ""
 "repo-init/) [repo sync](https://git-repo.info/en/docs/multi-repos/git-repo-"
 "sync/)"
 msgstr ""
+"Onde # é o número de de núcleos. O autor geralmente instala manualmente 16 "
+"fluxos para download rápido. Há também uma variedade de argumentos para "
+"esses comandos, mais detalhes: [repo init](https://git-repo.info/en/docs/"
+"multi-repos/git-repo-init/) [repo sync](https://git-repo.info/en/docs/multi-"
+"repos/git-repo-sync/)"
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:39
@@ -774,6 +889,13 @@ msgid ""
 "исходники Lineage OS за их авторством, к примеру всеми известный плеер "
 "Eleven."
 msgstr ""
+"Esse repositório que abrimos geralmente consiste em manifestos, que são "
+"arquivos xml. Um arquivo pode conectar outros arquivos, portanto não há "
+"necessidade de armazenar tudo em um arquivo, o que é conveniente. default."
+"xml é um manifesto que armazena todas as fontes AOSP e fontes AOSP que foram "
+"modificadas pela equipe do Lineage OS. Em snippets/lineage.xml já existem "
+"fontes do Lineage OS para sua autoria, por exemplo, o conhecido reprodutor/"
+"player de aúdio Eleven."
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:41
@@ -781,6 +903,8 @@ msgid ""
 "И в принципе на этом параграф заканчивается, единственное, что хотелось бы "
 "немного рассказать про локальные манифесты."
 msgstr ""
+"E em princípio é aqui que termina o parágrafo, a única coisa que gostaria de "
+"contar um pouco sobre os manifestos locais."
 
 #: src/Глава 1 Начало начал/Параграф 3 качаем
 #: исходники прошивки.md:43
@@ -789,11 +913,14 @@ msgid ""
 "сгенерированы автоматически системой сборки для скачивания некоторых "
 "специфичных исходников, таких как ядра, common деревья и других репозиториев."
 msgstr ""
+"Manifestos locais são manifestos que foram escritos manualmente ou gerados "
+"automaticamente pelo sistema de compilação para download de algumas fontes "
+"específicas, como kernels, árvores comuns e outros repositórios."
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:3
 msgid "# Параграф 4: исходники устройства"
-msgstr ""
+msgstr "# Parágrafo 4: fontes do dispositivo"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:5
@@ -803,11 +930,15 @@ msgid ""
 "командой Lineage OS и устройство не поддерживается официально командой "
 "Lineage OS."
 msgstr ""
+"Bem, vamos para a parte divertida. Precisamos baixar o código fonte do "
+"dispositivo. Vamos considerar dois casos: o dispositivo é oficialmente "
+"suportado pela equipe do Lineage OS e o dispositivo não é oficialmente "
+"suportado pela equipe do Lineage OS."
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:7
 msgid "### Устройство официально поддерживается"
-msgstr ""
+msgstr "### O dispositivo é oficialmente suportado"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:9
@@ -818,6 +949,11 @@ msgid ""
 "leeco. Открываем репозиторий, копируем ссылку. Очевидно она будет выглядить "
 "так:"
 msgstr ""
+"Isso é o mais banal. Você só precisa baixar bibliotecas proprietárias do "
+"repositório github.com/TheMuppets, onde as bibliotecas estão espalhadas por "
+"fabricante. Digamos que temos um smartphone fabricado pela Leeco. Na "
+"pesquisa digitamos leeco. Abra o repositório e copie o link. Obviamente "
+"ficará assim:"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:11
@@ -826,6 +962,9 @@ msgid ""
 "https://github.com/TheMuppets/proprietary_vendor_leeco\n"
 "```"
 msgstr ""
+"```\n"
+"https://github.com/TheMuppets/proprietary_vendor_leeco\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:15
@@ -834,6 +973,9 @@ msgid ""
 "lineage-17.1. Что ж, давайте сделаем это! Вводим следующую команду в корне "
 "исходников прошивки:"
 msgstr ""
+"Como estamos construindo o Lineage OS 17.1, precisamos baixar a ramificação/"
+"repositório (branch) lineage-17.1. Bem, vamos lá! Digite o seguinte comando "
+"no terminal para clonar/baixar o código fonte do dispositivo."
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:17
@@ -843,11 +985,15 @@ msgid ""
 "lineage-17.1 vendor/leeco\n"
 "```"
 msgstr ""
+"```bash\n"
+"git clone https://github.com/TheMuppets/proprietary_vendor_leeco -b "
+"lineage-17.1 vendor/leeco\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:21
 msgid "Давайте разберемся, что мы ввели:"
-msgstr ""
+msgstr "Vamos ver o que inserimos:"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:23
@@ -859,6 +1005,12 @@ msgid ""
 "- `-b lineage-17.1` - указываем ветку, которую требуется скачать\n"
 "- `vendor/leeco` - путь, куда требуется скачать репозиторий"
 msgstr ""
+"- `git clone` - comando para baixar o repositório\n"
+"\n"
+"- `https://github.com/TheMuppets/proprietary_vendor_leeco` - link para o "
+"repositório\n"
+"- `-b lineage-17.1` - indica o branch que precisa ser baixado\n"
+"- `vendor/leeco` - caminho onde você deseja baixar o repositório"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:29
@@ -866,11 +1018,13 @@ msgid ""
 "Внимание, если Ваше устройство производства Xiaomi, то скачать проприетарные "
 "библиотеки можно из gitlab.com/the-muppets."
 msgstr ""
+"Atenção, se o seu dispositivo for fabricado pela Xiaomi, você poderá baixar "
+"bibliotecas proprietárias em gitlab.com/the-muppets."
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:31
 msgid "### Устройство официально не поддерживается"
-msgstr ""
+msgstr "### O dispositivo não é oficialmente suportado"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:33
@@ -879,6 +1033,9 @@ msgid ""
 "Lineage OS. Во всяком случае, обычно. Будем полагаться на удачу. Так что "
 "открываем github.com и в поиск вбиваем"
 msgstr ""
+"E assim, o primeiro firmware montado para um novo dispositivo é o Lineage "
+"OS. Pelo menos, normalmente. Vamos confiar na sorte. Então abra github.com e "
+"digite na pesquisa"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:35
@@ -887,6 +1044,13 @@ msgid ""
 "device производитель кодовое-имя\n"
 "```"
 msgstr ""
+"```\n"
+"dispositivo fabricante codinome\n"
+"```\n"
+"\n"
+"```\n"
+"device vendor codename\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:39
@@ -894,11 +1058,13 @@ msgid ""
 "К примеру, давайте найдем исходники Xiaomi Redmi Note 4X - mido. Вводим "
 "`device_xiaomi_mido`, видим n-ое количество репозиториев:"
 msgstr ""
+"Por exemplo, vamos encontrar o código fonte do Xiaomi Redmi Note 4X - mido. "
+"Digite `device_xiaomi_mido`, vemos o enésimo número de repositórios:"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:41
 msgid "GitHub Search"
-msgstr ""
+msgstr "GitHub Search - Pesquisa em GitHub"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:45
@@ -908,6 +1074,12 @@ msgid ""
 "дерево для Lineage OS 17.1. Отлично! Берем. Скачиваем по той же схеме, что и "
 "библиотеки в примере с устройством Leeco."
 msgstr ""
+"A árvore de dispositivo superior é do Lineage OS, mas há uma árvore de "
+"dispositivo máxima para o Lineage OS 16.0. Não cabe. Vamos dar uma olhada "
+"mais de perto. Existe uma árvore de dispositivo do [zeelog](https://github."
+"com/zeelog?tab=repositories) , ele tem uma árvore de dispositivo para o "
+"Lineage OS 17.1. Ótimo! Vamos pegar. Baixamos da mesma forma que as "
+"bibliotecas do exemplo com o dispositivo Leeco."
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:47
@@ -916,6 +1088,9 @@ msgid ""
 "17.1 с ядром 4.9. Ветка lineage-17.1 предназначена для сборки Lineage OS "
 "17.1 с ядром 3.18."
 msgstr ""
+"> **Nota**. A ramificação lineage-17.1-4.9 destina-se à construção do "
+"Lineage OS 17.1 com kernel 4.9. A ramificação lineage-17.1 destina-se à "
+"construção do Lineage OS 17.1 com kernel 3.18."
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:49
@@ -925,11 +1100,16 @@ msgid ""
 "автор любит все делать ручками, не везде такое работает и в принципе мы "
 "учимся, поэтому открываем этот файл и смотрим:"
 msgstr ""
+"Bem, a árvore específica foi baixada. Em teoria, se houver lineage."
+"dependencies, o sistema deverá obter as fontes necessárias durante a "
+"inicialização. Mas como o autor gosta de fazer tudo manualmente, isso não "
+"funciona em todo lugar e, a princípio, estamos aprendendo, então abrimos "
+"esse arquivo e olhamos:"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:51
 msgid "lineage.dependencies"
-msgstr ""
+msgstr "lineage.dependencies"
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:55
@@ -942,6 +1122,14 @@ msgid ""
 "android_**kernel_xiaomi_mido** - **kernel/xiaomi/mido**. Думаю, вопросы "
 "излишни. "
 msgstr ""
+"No caso do mido, aqui vemos apenas o kernel. Não há necessidade de procurá-"
+"lo, abra o perfil do [zeelog](https://github.com/zeelog?tab=repositories) e "
+"digite `android_kernel_xiaomi_mido` na busca. Nós clonamos de acordo com o "
+"esquema estabelecido. Onde clonar? Você pode procurar em `lineage."
+"dependencies`. Embora você provavelmente tenha notado alguma tendência nos "
+"nomes dos repositórios e onde eles foram clonados. Vamos voltar ao mesmo "
+"kernel, android_**kernel_xiaomi_mido** - **kernel/xiaomi/mido**. Acho que as "
+"perguntas são desnecessárias."
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:57
@@ -955,6 +1143,15 @@ msgid ""
 "A6020`. И если в `lineage.dependencies` есть еще что-то, то тоже клонируем в "
 "соответствующие папки."
 msgstr ""
+"Agora você precisa baixar bibliotecas proprietárias. Infelizmente, eles não "
+"estão listados em `lineage.dependencies`. Abra o perfil do [zeelog](https://"
+"github.com/zeelog?tab=repositories) novamente e procure algo como "
+"`vendor_xiaomi`. Encontrou? Ótimo, vamos cloná-lo na pasta apropriada do "
+"branch desejado. Porém, se você estiver trabalhando com outro dispositivo, "
+"sua situação pode ser diferente, por exemplo, o repositório se chama "
+"`proprietary_vendor_lenovo_A6020`, obviamente iremos cloná-lo para `vendor/"
+"lenovo/A6020`. E se houver algo mais em `lineage.dependencies`, então também "
+"clonamos nas pastas apropriadas."
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:59
@@ -964,6 +1161,10 @@ msgid ""
 "случаях нужно и вовсе патчить исходники прошивки. К примеру, для моего Asus "
 "Zenfone 2 Laser ZE500KL (Z00ED) требуется модифицировать HAL'ы."
 msgstr ""
+"Em geral, se possível, é melhor perguntar a empresa que detêm o código fonte "
+"do SEU dispositivo o que e onde baixar para construir o firmware. Em alguns "
+"casos, é necessário corrigir completamente as fontes do firmware. Por "
+"exemplo, meu Asus Zenfone 2 Laser ZE500KL (Z00ED) requer modificação de HALs."
 
 #: src/Глава 1 Начало начал/Параграф 4
 #: исходники устройства.md:61
@@ -971,11 +1172,13 @@ msgid ""
 "Исходники готовы к сборке под устройство. Приступаем к самой долгой и нудной "
 "части - сборке прошивки."
 msgstr ""
+"As fontes estão prontas para montagem no dispositivo. Vamos para a parte "
+"mais longa e tediosa - montar/compilar o firmware."
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:1
 msgid "# Параграф 5: Инициализация и сборка"
-msgstr ""
+msgstr "# Parágrafo 5: Inicialização e montagem/compilação"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:3
@@ -983,6 +1186,8 @@ msgid ""
 "И вот мы переходим к самому ~~интересному~~, страшному и интригующему в этой "
 "главе - к сборке готовой прошивки!"
 msgstr ""
+"E agora passamos para a coisa mais ~~interessante~~, assustadora e "
+"intrigante deste capítulo - montar/compilar o firmware finalizado!"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:5
@@ -990,6 +1195,9 @@ msgid ""
 "Для начала требуется настроить окружение, что происходит посредством запуска "
 "скрипта build/envsetup.sh. Тут уместна шутка \"есть два типа людей\":"
 msgstr ""
+"Primeiro você precisa configurar seu ambiente, o que acontece executando o "
+"script build/envsetup.sh. A piada “existem duas opções” e uma é apropriada "
+"aqui:"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:7
@@ -998,6 +1206,9 @@ msgid ""
 ". build/envsetup.sh\n"
 "```"
 msgstr ""
+"```bash\n"
+". build/envsetup.sh\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:11
@@ -1006,6 +1217,9 @@ msgid ""
 "source build/envsetup.sh\n"
 "```"
 msgstr ""
+"```bash\n"
+"source build/envsetup.sh\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:15
@@ -1013,6 +1227,8 @@ msgid ""
 "Да, это два варианта как запустить скрипт. Автор данного текста относит себя "
 "к первому типу людей."
 msgstr ""
+"Sim, essas são duas opções para executar o script. O autor deste texto "
+"considera a primeira opção."
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:17
@@ -1020,6 +1236,8 @@ msgid ""
 "Окей, теперь требуется указать системе сборки под какое устройство "
 "происходит сборка. Команда должна быть следующей:"
 msgstr ""
+"Ok, agora você precisa informar ao sistema de compilação para qual "
+"dispositivo a compilação se destina. O comando deve ser:"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:19
@@ -1028,6 +1246,9 @@ msgid ""
 "lunch lineage_codename-userdebug\n"
 "```"
 msgstr ""
+"```bash\n"
+"lunch lineage_codename-userdebug\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:23
@@ -1035,6 +1256,8 @@ msgid ""
 "Где `codename` - кодовое название устройства. Не боимся, сидим и ждем, когда "
 "сделает все, что требуется системе сборки."
 msgstr ""
+"Onde `codename` é o nome de código do dispositivo. Não temos medo, sentamos "
+"e esperamos que ele faça tudo o que o sistema de montagem exige."
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:29
@@ -1043,6 +1266,10 @@ msgid ""
 "собираем прошивку, и немного об ОС, которая стоит на машине для сборки. "
 "Теперь мы готовы собирать. И тут снова 2 варианта:"
 msgstr ""
+"Ótimo! Podemos ler quase todas as informações sobre o dispositivo para o "
+"qual estamos montando o firmware, e um pouco sobre o SO que está instalado "
+"na máquina de montagem. Agora estamos prontos para coletar. E aqui novamente "
+"existem 2 opções:"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:31
@@ -1051,6 +1278,9 @@ msgid ""
 "указывать количество потоков, то сборка будет происходить в однопоточном "
 "режиме"
 msgstr ""
+"1) Construa o firmware usando make e o número de núcleos físicos ou "
+"virtuais. Se você não especificar o número de núcleos físicos ou virtuais, a "
+"construção ocorrerá no modo núcleo único"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:33
@@ -1059,6 +1289,9 @@ msgid ""
 "make bacon -j#\n"
 "```"
 msgstr ""
+"```bash\n"
+"make bacon -j#\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:37
@@ -1066,6 +1299,8 @@ msgid ""
 "2) Сборка прошивки с использованием mka, он автоматически установит нужное "
 "количество потоков для сборки"
 msgstr ""
+"2) Construa o firmware usando mka, ele instalará automaticamente o número "
+"necessário de núcleos para a construção"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:39
@@ -1074,6 +1309,9 @@ msgid ""
 "mka bacon\n"
 "```"
 msgstr ""
+"```bash\n"
+"mka bacon\n"
+"```"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:43
@@ -1081,6 +1319,8 @@ msgid ""
 "В чем разница? Об этом нам скажет [Mirsaid02](https://4pda.to/forum/index."
 "php?showuser=4383879) с 4PDA:"
 msgstr ""
+"Qual é a diferença? [Mirsaid02](https://4pda.to/forum/index.php?"
+"showuser=4383879) de w3bsit3-dns.com nos contará sobre isso:"
 
 #: src/Глава 1 Начало начал/Параграф 5
 #: инициализация и сборка.md:45
@@ -1094,11 +1334,19 @@ msgid ""
 "> [Пост](https://4pda.to/forum/index.php?"
 "showtopic=209610&view=findpost&p=44763389)"
 msgstr ""
+"> **mka** é a melhor opção para montagem em termos de qualidade, pois "
+"utiliza o programa sched_tool, ocorrerão menos erros durante a montagem, "
+"seleciona o compilador apropriado para cada parte da montagem, mas a "
+"montagem leva várias horas a mais , dependendo do TX do seu PC ou laptop, "
+"também chamada de versão \"supercarregada\" do make.\n"
+">\n"
+"> [Postagem](https://4pda.to/forum/index.php?"
+"showtopic=209610&view=findpost&p=44763389)"
 
 #: src/Глава 1 Начало начал/Параграф 6 в
 #: завершение.md:1
 msgid "# Параграф 6: В завершение"
-msgstr ""
+msgstr "# Parágrafo 6: Em conclusão"
 
 #: src/Глава 1 Начало начал/Параграф 6 в
 #: завершение.md:3
@@ -1111,11 +1359,19 @@ msgid ""
 "просто сборки, Вы хотите чем-то выразиться среди толпы. Надеюсь, что именно "
 "здесь мы научим Вас основам."
 msgstr ""
+"A princípio você aprendeu a montar o firmware, parabéns! Porém, isso não "
+"será suficiente para seus propósitos, certo? Você sempre deseja coletar algo "
+"que ainda não foi adicionado ao seu dispositivo favorito. Ou talvez o seu "
+"firmware favorito não seja atualizado há muito tempo e novas correções para "
+"o dispositivo e novos recursos como o Dirac não tenham sido adicionados? Se "
+"adivinhei errado, ficou engraçado :) Mas tenho certeza que só montar não é "
+"suficiente para você, você quer se expressar em algo no meio da multidão. "
+"Espero que seja aqui que lhe ensinaremos o básico."
 
 #: src/Глава 1 Начало начал/Параграф 6 в
 #: завершение.md:5
 msgid "Ваши учителя:"
-msgstr ""
+msgstr "Seus professores:"
 
 #: src/Глава 1 Начало начал/Параграф 6 в
 #: завершение.md:7
@@ -1125,6 +1381,10 @@ msgid ""
 "- [**CakesTwix**](https://github.com/CakesTwix)\n"
 "- [**Ultra119**](https://github.com/Ultra119)"
 msgstr ""
+"- [**Roker2**](https://github.com/Roker2)\n"
+"- [**SanyaPilot**](https://github.com/SanyaPilot)\n"
+"- [**CakesTwix**](https://github.com/CakesTwix)\n"
+"- [**Ultra119**](https://github.com/Ultra119)"
 
 #: src/Глава 1 Начало начал/Параграф 6 в
 #: завершение.md:12
@@ -1132,28 +1392,31 @@ msgid ""
 "Книга в данный момент времени в разработке. Если Вы уже человек с опытом и "
 "хотите поделиться своими знаниями, то Welcome to the club!"
 msgstr ""
+"O livro está atualmente em desenvolvimento. Se você já é uma pessoa com "
+"experiência e deseja compartilhar seus conhecimentos, seja bem-vindo ao "
+"clube!"
 
 #: src/Глава 1 Начало начал/Параграф 6 в
 #: завершение.md:14
 msgid "[Репозиторий книги](https://github.com/Roker2/BookAboutBuilding)"
-msgstr ""
+msgstr "[Repositório deste livro](https://github.com/Roker2/BookAboutBuilding)"
 
 #: src/Глава 1 Начало начал/Параграф 6 в
 #: завершение.md:16
 msgid "Ваш Roker2"
-msgstr ""
+msgstr "Seu Roker2"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Введение.md:1 3 изучение исходников
 #: устройства/Введение.md:1 4 Обновление
 #: самостоятельно/Введение.md:1
 msgid "# Введение"
-msgstr ""
+msgstr "# Introdução"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Введение.md:3
 msgid "Начнем с определения \"git\"."
-msgstr ""
+msgstr "Vamos começar com a definição de “git”."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Введение.md:5
@@ -1162,6 +1425,9 @@ msgid ""
 ">\n"
 "> © Wikipedia"
 msgstr ""
+"> Git é um sistema de controle de versão distribuído.\n"
+">\n"
+"> © Wikipedia"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Введение.md:9
@@ -1174,6 +1440,13 @@ msgid ""
 "просто освоить git) и очень полезный. Пренебрегать им нельзя ни в коем "
 "случае!"
 msgstr ""
+"Na verdade, o git permite criar um histórico de alterações e manipulá-lo, "
+"conseguindo assim compreender mais rapidamente o problema, analisar o "
+"código, etc. Sem conhecimento do git, será muito difícil trabalhar com "
+"fontes Android e, em princípio, em programação, porque a ferramenta é "
+"popular e gratuita (se você já usou o Mercurial, provavelmente será fácil "
+"aprender git) e muito útil. Sob nenhuma circunstância eles devem ser "
+"negligenciados!"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Введение.md:11
@@ -1181,6 +1454,8 @@ msgid ""
 "Про название коммитов в дереве устройства и в вендоре. Обычно они имеют "
 "такие название:"
 msgstr ""
+"Sobre os nomes das informações atualizadas (commits) na árvore de "
+"dispositivos e no fornecedor. Eles geralmente têm os seguintes nomes:"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Введение.md:13
@@ -1191,11 +1466,16 @@ msgid ""
 "3) \"part_of_tree: Name\" (пример: \"power: Handle Mode::LAUNCH power hints"
 "\")."
 msgstr ""
+"1) \"codename: part_of_tree: Name\" (exemplo: \"mido: mixer_paths: Remove "
+"duplicate entries\");\n"
+"2) \"codename: Name\" (exemplo: \"mido: Kang tissot s5k5e8_ofilm\");\n"
+"3) \"part_of_tree: Name\" (exemplo: \"power: Handle Mode::LAUNCH power hints"
+"\")."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Введение.md:17
 msgid "В принципе и все, едем к основной части!"
-msgstr ""
+msgstr "Em princípio é tudo, vamos para a parte principal!"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
@@ -1203,6 +1483,7 @@ msgstr ""
 msgid ""
 "# Параграф 1: Создание аккаунта на GitHub и настройка git под свой аккаунт"
 msgstr ""
+"# Parágrafo 1: Crie uma conta no GitHub e configure o git para sua conta"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
@@ -1211,12 +1492,14 @@ msgid ""
 "Хочу сказать, что если Вы имеете аккаунт на GitHub или чем-то подобном и "
 "знаете git, то это глава Вам не нужна, ибо Вы и так все знаете."
 msgstr ""
+"Quero dizer que se você tem uma conta no GitHub, ou algo parecido e conhece "
+"git, então você não precisa deste capítulo, porque você já sabe tudo."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
 #: настройка git под свой аккаунт.md:5
 msgid "#### Создаем аккаунт на GitHub"
-msgstr ""
+msgstr "#### Crie uma conta no GitHub"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
@@ -1228,12 +1511,18 @@ msgid ""
 "чей-то репозиторий, подписаться на обновления репозитория, подписаться на "
 "человека, искать какие-то репозитории, поставить аватарку и статус :)"
 msgstr ""
+"Basicamente não há nada complicado aqui, basta acessar [github.com](https://"
+"github.com/), digitar seu e-mail e senha, fazer login, pronto, temos uma "
+"conta no GitHub. Aqui podemos criar nossos próprios repositórios, inclusive "
+"privados, avaliar o repositório de alguém, assinar atualizações do "
+"repositório, seguir uma pessoa, procurar alguns repositórios, definir um "
+"avatar e status :)"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
 #: настройка git под свой аккаунт.md:9
 msgid "Мой аккаунт"
-msgstr ""
+msgstr "Мой аккаунт"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
@@ -1242,6 +1531,7 @@ msgid ""
 "Перейдем к тому, чтобы наши коммиты (commits) и черри-пики (cherry-picks) "
 "имели информацию о нас."
 msgstr ""
+"Vamos garantir que nossos commits e escolhas tenham informações sobre nós."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
@@ -1250,12 +1540,15 @@ msgid ""
 "И так, варианта два и они различаются лишь флагом `--global`, который "
 "говорит, что информация о нас будет использоваться везде по умолчанию."
 msgstr ""
+"Portanto, existem duas opções e elas diferem apenas no sinalizador `--"
+"global`, que diz que as informações sobre nós serão usadas em todos os "
+"lugares por padrão."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
 #: настройка git под свой аккаунт.md:15
 msgid "Пример глобальной настройки пользователя"
-msgstr ""
+msgstr "Exemplo de configuração de usuário global"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
@@ -1266,6 +1559,10 @@ msgid ""
 "git config --global user.email johndoe@example.com\n"
 "```"
 msgstr ""
+"```git\n"
+"git config --global user.name \"John Doe\"\n"
+"git config --global user.email johndoe@example.com\n"
+"```"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
@@ -1277,6 +1574,11 @@ msgid ""
 "%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Git), "
 "откуда взят пример"
 msgstr ""
+"[Original](https://git-scm.com/book/ru/v2/"
+"%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%9F"
+"%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD"
+"%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Git), de "
+"onde veio o exemplo?"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф 1 Создание аккаунта на GitHub
@@ -1285,11 +1587,13 @@ msgid ""
 "`user.name` это никнейм вашего GitHub аккаунта, а `user.email` - почта, "
 "которую Вы использовали при регистрации на GitHub."
 msgstr ""
+"`user.name` é o apelido da sua conta GitHub e `user.email` é o e-mail que "
+"você usou ao se registrar no GitHub."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:1
 msgid "# Параграф 2: Ходовые команды git'а"
-msgstr ""
+msgstr "# Parágrafo 2: comandos de execução do Git"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:3
@@ -1298,6 +1602,9 @@ msgid ""
 "пользуюсь. Для чего-то специфического вперед в Google или в любой другой "
 "поисковик."
 msgstr ""
+"Nem todos os comandos estão listados aqui, apenas os básicos que costumo "
+"usar. Para algo específico, acesse o Google ou qualquer outro mecanismo de "
+"busca."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:6
@@ -1307,6 +1614,10 @@ msgid ""
 ">```\n"
 ">Это переключение между бранчами."
 msgstr ""
+">```bash\n"
+">git checkout branch\n"
+">```\n"
+">Isso é alternar entre branchs."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:11
@@ -1318,6 +1629,12 @@ msgid ""
 "(требуется флаг -b перед названием ветки) в папку path/to/folder. Ветка и "
 "папка являются необязательными аргументами."
 msgstr ""
+">```bash\n"
+">git clone url -b branch path/to/folder\n"
+">```\n"
+">Este é o comando para baixar o repositório do link da url do branch (requer "
+"o sinalizador -b antes do nome do branch) para caminho/para/pasta. branch e "
+"pasta são argumentos opcionais."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:16
@@ -1328,6 +1645,11 @@ msgid ""
 ">Это добавление кастомного имени для репозитория. Используется в последующем "
 "для скачивания данных с указанного репозитория."
 msgstr ""
+">```bash\n"
+">git remote add alias_repo_name url\n"
+">```\n"
+">Isso está adicionando um nome personalizado para o repositório. Usado "
+"posteriormente para baixar dados do repositório especificado."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:21
@@ -1343,6 +1665,16 @@ msgid ""
 "скачает информацию со всех бранчей и сохранит ее. Той же командой ее можно и "
 "обновить."
 msgstr ""
+">```bash\n"
+">git fetch url\n"
+">git fetch alias_repo_name \n"
+">```\n"
+">Isso é baixar dados (commits) de um repositório por meio de um link de URL "
+"ou de um repositório que tenha um nome personalizado. Há uma diferença entre "
+"essas opções. Se for puramente de um link, ele baixará os dados apenas sobre "
+"a branch principal e será apagado após baixar os dados de outro link. A "
+"segunda opção irá baixar informações de todas as filiais e salvá-las. Você "
+"pode atualizá-lo com o mesmo comando."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:27
@@ -1353,6 +1685,11 @@ msgid ""
 ">Это автоматизированная версия git fetch. Он загружает бранч из удаленного "
 "репозитория, а затем объединяет ее с текущим."
 msgstr ""
+">```bash\n"
+">git pull\n"
+">```\n"
+">Esta é uma versão automatizada do git fetch. Ele baixa um branch de um "
+"repositório remoto e então o mescla com o atual."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:32
@@ -1364,6 +1701,12 @@ msgid ""
 "переместить локальную ветвь в другой репозиторий, что служит удобным "
 "способом публикации коммитов. "
 msgstr ""
+">```bash\n"
+">git push\n"
+">```\n"
+">Isso é o oposto de sobrepor (com algumas ressalvas). Ele permite mover uma "
+"ramificação local para outro repositório, o que serve como uma maneira "
+"conveniente de publicar commits."
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:37
@@ -1377,6 +1720,15 @@ msgid ""
 "чужим авторством. Придется вертеться с этим фактом в нашем деле. Будьте "
 "осторожны. ;)"
 msgstr ""
+">```bash\n"
+">git cherry-pick commit_code\n"
+">```\n"
+">Isso é transferir o commit de outra pessoa para o seu repositório enquanto "
+"mantém a autoria (você está listado como a pessoa que transferiu este "
+"commit), na verdade, um comando muito necessário e útil. Por que? Ninguém "
+"gosta quando, por algum motivo, suas obras passam subitamente para a autoria "
+"de outra pessoa. Teremos que lidar com esse fato em nossos negócios. Tome "
+"cuidado. ;)"
 
 #: src/Глава 2 git, с чем его едят и зачем
 #: он/Параграф Ходовые команды git'а.md:42
@@ -1388,6 +1740,12 @@ msgid ""
 "отдельного коммита включительно в текущий бранч. Используется чтобы собрать "
 "воедино разветвленную историю."
 msgstr ""
+">```bash\n"
+">git merge branch / commit_code \n"
+">```\n"
+">Esta é uma fusão de todos os commits ausentes, seja de outro branch, ou até "
+"e incluindo um commit separado no branch atual. Usado para juntar as "
+"alterações de informações de branchs."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Введение.md:3
@@ -1397,6 +1755,10 @@ msgid ""
 "ZenFone 2 Laser ZE500KL/KG (Z00ED/RD или же Z00xD) и Sony Xperia Z3 Compact, "
 "потому что:"
 msgstr ""
+"Como já disse, usarei o exemplo do dispositivo Xiaomi Redmi Note 4X "
+"Snapdragon, também conhecido como mido; os dispositivos Asus ZenFone 2 Laser "
+"ZE500KL/KG (Z00ED/RD ou Z00xD) e Sony Xperia Z3 Compact também serão dados "
+"como um exemplo, porque:"
 
 #: src/Глава 3 изучение исходников
 #: устройства/Введение.md:5
@@ -1406,6 +1768,10 @@ msgid ""
 "- Это три устройства, у которых структура деревьев разная, что дает "
 "расширить немного кругозор"
 msgstr ""
+"- Eu os tenho\n"
+"- Eu os entendo\n"
+"- São três dispositivos em que a estrutura de cada árvore de dispositivo é "
+"diferente, o que permite ampliar um pouco os seus horizontes"
 
 #: src/Глава 3 изучение исходников
 #: устройства/Введение.md:9
@@ -1415,18 +1781,23 @@ msgid ""
 "то расширить свой же кругозор я не имею возможности. Надеюсь, кто-то "
 "заглянет и добавит недостающую информацию :)"
 msgstr ""
+"Sim, tendo estreitado meus horizontes para três dispositivos, dos quais "
+"entendo mais ou menos apenas um, você pode perder algumas informações. "
+"Infelizmente, é assim e não tenho a oportunidade de expandir de alguma forma "
+"meus horizontes. Espero que alguém dê uma olhada e adicione as informações "
+"que faltam :)"
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 1 что есть и для
 #: чего.md:1
 msgid "# Параграф 1: что есть что и для чего"
-msgstr ""
+msgstr "# Parágrafo 1: o que é o quê e por quê"
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 1 что есть и для
 #: чего.md:3
 msgid "И так, исходники устройства состоят обычно из:"
-msgstr ""
+msgstr "E assim, o código fonte do dispositivo geralmente consiste em:"
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 1 что есть и для
@@ -1436,6 +1807,9 @@ msgid ""
 "- Device tree - дерево устройства\n"
 "- Vendor - вендор, проприетарные библиотеки"
 msgstr ""
+"- Kernel - núcleo\n"
+"- Device tree - árvore de dispositivos\n"
+"- Vendor - fornecedor/fabricante, bibliotecas proprietárias do fabricante"
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 1 что есть и для
@@ -1445,6 +1819,10 @@ msgid ""
 "(конфигов) разных форматов. В дереве прописываются различные пути, конфиги "
 "сборки, часто изменяющиеся конфиги, которые копируются в прошивку, исходники."
 msgstr ""
+"Vamos começar com a árvore. Uma árvore de dispositivos é um conjunto de "
+"arquivos de configuração (configs) de diferentes formatos. A árvore contém "
+"vários caminhos, configurações de montagem, configurações que mudam "
+"frequentemente, que são copiadas no firmware e nas fontes."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 1 что есть и для
@@ -1454,6 +1832,10 @@ msgid ""
 "содержатся различные драйвера, переменные для них, деревья для сборки ядра и "
 "конфиги, которые говорят, что надо собирать в ядре."
 msgstr ""
+"O kernel é o núcleo Linux no qual todos os dispositivos Android são "
+"executados. Ele contém vários drivers, variáveis ​​para eles, árvores para "
+"construir o kernel e configurações que dizem o que precisa ser construído no "
+"kernel."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 1 что есть и для
@@ -1463,18 +1845,24 @@ msgid ""
 "либо еще) библиотек устройства, которые просто копируются в устройство. "
 "Вендор состоит из тех библиотек, исходников которых нет в открытом доступе."
 msgstr ""
+"Fornecedor (vendor) é um conjunto de bibliotecas de dispositivos "
+"proprietárias (prontas, montadas pelo fabricante ou por qualquer outra "
+"pessoa) que são simplesmente copiadas para o dispositivo. O fornecedor "
+"consiste nas bibliotecas cujos códigos-fonte não estão disponíveis "
+"publicamente."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
 #: сколько их должно быть.md:1
 msgid "# Параграф 2: что такое дерево и сколько их должно быть"
 msgstr ""
+"# Parágrafo 2: o que é uma árvore de dispositivo e quantas deveriam haver"
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
 #: сколько их должно быть.md:3
 msgid "Повторим определение из введения."
-msgstr ""
+msgstr "Repetimos a definição desde a introdução."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
@@ -1484,6 +1872,10 @@ msgid ""
 "форматов. В дереве прописываются различные пути, конфиги сборки, часто "
 "изменяющиеся конфиги, которые копируются в прошивку, исходники."
 msgstr ""
+"Uma árvore de dispositivos é um conjunto de arquivos de configuração "
+"(configs) de diferentes formatos. A árvore contém vários caminhos, "
+"configurações de montagem, configurações que mudam frequentemente, que são "
+"copiadas no firmware e nas fontes."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
@@ -1493,6 +1885,10 @@ msgid ""
 "производитель, а `devicecodename` - кодовое имя устройства. Приведем пример "
 "для Xiaomi Redmi Note 4X - `device/xiaomi/mido`."
 msgstr ""
+"Normalmente, a árvore de disposotivo está no caminho `device/vendor/"
+"devicecodename`, onde `vendor` é o fabricante e `devicecodename` é o nome do "
+"código do dispositivo. Vamos dar um exemplo para Xiaomi Redmi Note 4X - "
+"`device/xiaomi/mido`."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
@@ -1503,6 +1899,10 @@ msgid ""
 "примера рассмотрим Asus ZenFone 2 Laser ZE500KL/KG и Asus ZenFone Max "
 "(Z010D)."
 msgstr ""
+"Mas acontece que os dispositivos são muito semelhantes nos componentes da "
+"árvore e a mesma parte é simplesmente transferida para uma árvore comum "
+"separada - common. Por exemplo, considere o Asus ZenFone 2 Laser ZE500KL/KG "
+"e o Asus ZenFone Max (Z010D)."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
@@ -1510,6 +1910,8 @@ msgstr ""
 msgid ""
 "Структура получается следующая - в папке `device/asus` лежат три дерева:"
 msgstr ""
+"A estrutura é a seguinte - na pasta `device/asus` existem três árvores de "
+"dispositivos:"
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
@@ -1520,6 +1922,10 @@ msgid ""
 "и Asus ZenFone 2 Laser ZE500KG)\n"
 "- Специфическое: Z010D"
 msgstr ""
+"- Geral: msm8916-comum\n"
+"- Específico: Z00xD (árvore combinada para Asus ZenFone 2 Laser ZE500KL e "
+"Asus ZenFone 2 Laser ZE500KG)\n"
+"- Específico: Z010D"
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
@@ -1528,6 +1934,8 @@ msgid ""
 "По итогу, вся база лежит в msm8916-common, а специфика лежит в специфичных "
 "деревьях."
 msgstr ""
+"Como resultado, toda a base está em msm8916-common e as especificidades "
+"estão em árvores específicas."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
@@ -1536,6 +1944,8 @@ msgid ""
 "[Ссылка на проект](https://github.com/Asus-MSM8916) с исходниками, бранч "
 "lineage-16.0."
 msgstr ""
+"[Asus-MSM8916](https://github.com/Asus-MSM8916) com fontes, branch "
+"lineage-16.0."
 
 #: src/Глава 3 изучение исходников
 #: устройства/Параграф 2 что такое дерево и
